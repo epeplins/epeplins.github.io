@@ -3468,8 +3468,8 @@ input, select, textarea {
 
 			#banner {
 				padding: 7em 0 8.25em 0 ;
-				background-color: #2e3141;
-				background-image: linear-gradient(to top, rgba(46, 49, 65, 0.45), rgba(46, 49, 65, 0.45)), url("../../images/bg_phone.jpeg");
+				/* background-color: #2e3141;
+				background-image: linear-gradient(to top, rgba(46, 49, 65, 0.45), rgba(46, 49, 65, 0.45)), url("../../images/bg_phone.jpeg"); */
 				background-size: auto, cover;
 
 				background-attachment: fixed, fixed;
@@ -3581,8 +3581,8 @@ input, select, textarea {
 
 		#wrapper > header {
 			padding: 9em 0 6.25em 0 ;
-			background-color: #2e3141;
-			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.45), rgba(46, 49, 65, 0.45)), url("../../images/bg_phone.jpeg");
+			/* background-color: #2e3141;
+			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.45), rgba(46, 49, 65, 0.45)), url("../../images/bg_phone.jpeg"); */
 			background-size: auto, cover;
 			background-attachment: fixed, fixed;
 			background-position: center, 0% 30%;
