@@ -164,6 +164,7 @@ div.butt {
 	/* border: 2px ridge var(--border); */
 	/* border-radius: 5px; */
 	gap: 10px;
+	flex-wrap: wrap;
 }
 
 
