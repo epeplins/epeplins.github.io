@@ -88,6 +88,7 @@ body {
 .large { flex: 1 1 69%; } /* originally 82% */
 .full { flex: 1 1 100%; }
 .half { flex: 1 1 49%; }
+.butt { flex: 1 1 100%; }
 
 header {
 	background-size: cover;
@@ -151,9 +152,31 @@ nav a:hover, nav a:focus {
 div.small > img {
 	display: block;
 	margin: 5px auto;
-	border:2px ridge var(--border);
+	border: 2px ridge var(--border);
 	border-radius: 5px;
 }
+
+div.butt {
+	display: flex;
+	justify-content: center;
+  	align-items: center;
+	margin: 5px auto;
+	/* border: 2px ridge var(--border); */
+	/* border-radius: 5px; */
+	gap: 10px;
+}
+
+
+/* @media (max-width: 768px) {
+	div.small > img {
+		display: block;
+		margin: 5px auto;
+		border:2px ridge var(--border);
+		border-radius: 5px;
+		position: relative;
+		bottom: 0;
+	}
+} */
 
 
 section {
