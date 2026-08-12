@@ -64,6 +64,22 @@ body {
 	}
 }
 
+/* For mobile */
+@media (max-width: 900px) {
+  body {      
+	background-image: 
+		linear-gradient(
+    	rgba(22, 29, 74, 0.4), 
+    	rgba(22, 29, 74, 0.4)),
+		url('images/rocky_icy_worlds_bayer2x2_crop.png');
+	background-size: 250% auto;
+	background-repeat: repeat-y;
+	background-position: center top;
+	min-height: 100vh;
+  }
+}
+
+
 
 .container {
 	max-width: 70rem;
