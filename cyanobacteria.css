@@ -2,16 +2,24 @@
 
 /* start light mode styling */
 	:root {
-		--text: darkslategrey;
+		/* --text: darkslategrey;
 		--border: lightgrey;
 		--accent: teal;
 		--bg: #dce3e1;
 		--gradientTop: white;
-		--gradientBottom: rgb(240, 248, 255, .8);
+		--gradientBottom: rgb(240, 248, 255, .8); */
+		--text: #F2F6DF;
+		--border: #EFBC9B;
+		--accent: #CF5C36;
+		--bg: #464D77;
+		/* --gradientBottom: #f1c89f;
+		--gradientTop: #F2DBA6; */
+		--gradientBottom: rgba(22, 29, 74, 0.0); 
+		--gradientTop: rgba(22, 29, 74, 0.0);
 	}
-	header {
+	/* header {
 		background: url('***light mode banner image***');
-	}
+	} */
 /* end light mode styling */
 
 
